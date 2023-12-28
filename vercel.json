@@ -2,7 +2,7 @@
     "builds": [{
         "src": "puddle/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "100mb", "runtime": "python4.2" }
+        "config": { "maxLambdaSize": "100mb", "runtime": "python3.0" }
     }],
     "routes": [
         {
