@@ -1,5 +1,7 @@
-# .gitignore
-venv/
-__pycache__/
+db.sqlite3
 *.pyc
-*.pyo
+*/*.pyc
+*/*/*.pyc
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
